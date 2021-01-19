@@ -1,0 +1,82 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/17520.jpg");
+    background-color: #cccccc;
+   }
+
+main {
+    padding: 15px 0;
+}
+section{
+    margin-bottom: 100px;
+}
+main h1 {
+    color: lightblue;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 3px dashed lightblue;
+    margin-bottom: 50px;
+}
+main h2{
+    margin: 12px 10px;
+    border-bottom: 1px solid lightgray;
+    color: lightblue;
+    margin-bottom: 50px;
+}
+main img{
+    padding-top: 40px;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    color: lightblue;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form textarea {
+    height: 5rem;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+.group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1000px;
+}
+.item {
+    flex: 2;
+    margin: 10px;
+  }
+
+  /* for desktop view */
+  @media all and (min-width: 800px){
+    section {
+        padding: 0 15%;
+      }
+      main{
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      form {
+        padding-right: 6px;
+      }
+      
+      form input, 
+      form textarea {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      
+      form textarea {
+        height: 160px;
+      }
+      
+}
